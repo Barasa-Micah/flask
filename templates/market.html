@@ -43,6 +43,7 @@
                 <th scope="col">Name</th>
                 <th scope="col">Barcode</th>
                 <th scope="col">Price</th>
+                <th scope="col">Options</th>
             </tr>
         </thead>
         <tbody>
@@ -51,7 +52,11 @@
                 <td>{{item.id}}</td>
                 <td>{{item.name}}</td>
                 <td>{{item.barcode}}</td>
-                <td>{{item.price}}</td>
+                <td>{{item.price}} $</td>
+                <td>
+                    <button class="btn btnn-outline btn-info">More Info</button>
+                    
+                </td>
             </tr>
             {% endfor%}
            
